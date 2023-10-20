@@ -77,7 +77,11 @@
 
 ## 15. Capturer un handshake TLS
 
+![Wireshark handshake](https://cdn.discordapp.com/attachments/1036557173943185491/1164912022924841040/image.png?ex=6544efdd&is=65327add&hm=9aba1cbcfa607dec48a59f1c4239b8ae4d3c6f25590770a885a3db561fcb0b68&)
+
 ## 16. déchiffrer le trafic avec votre certificat
+
+![Wireshark cert](https://cdn.discordapp.com/attachments/1036557173943185491/1164911737275944960/image.png?ex=6544ef99&is=65327a99&hm=f721b3a3723225ada4f8c8a538c189baf48aefa6168c915170a0f6ba25e96ac0&)
 
 ## 17. Qu’est-ce qu’une autorité de certification (AC) racine ? Qu'est qu'une AC intermediaire ?
 
