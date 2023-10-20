@@ -3,7 +3,7 @@
 
 ## 1. Capturer le processus DORA du protocole DHCP
 
-![Sniffer check DORA](https://cdn.discordapp.com/attachments/1036557173943185491/1164500994323918938/image.png?ex=65437110&is=6530fc10&hm=35d20e772053abea3784043e3adbd7a550705b93e439c047c2e9c91945c1fc48&)
+![Wireshark check DORA](https://cdn.discordapp.com/attachments/1036557173943185491/1164500994323918938/image.png?ex=65437110&is=6530fc10&hm=35d20e772053abea3784043e3adbd7a550705b93e439c047c2e9c91945c1fc48&)
 
 ## 2. Qu’est ce que le DHCP Starvation / snooping ? Rogue DHCP ?
 
@@ -67,3 +67,64 @@
 - Pour éviter de voir un mot de passe en clair lors de l'analyse d'une connexion FTP avec Wireshark, vous pouvez chiffrer la connexion FTP en utilisant FTPS (FTP sécurisé) ou SFTP (SSH File Transfer Protocol) au lieu de FTP non sécurisé. Le chiffrement est essentiel pour protéger le mot de passe et les données pendant la transmission. Assurez-vous que votre serveur FTP et votre client FTP sont configurés pour utiliser FTPS ou SFTP, et ainsi vos données resteront confidentielles.
 
 ## 15. Capturer un handshake TLS – puis déchiffrer le trafic avec votre certificat
+
+## 16. Qu’est-ce qu’une autorité de certification (AC) racine ? Qu'est qu'une AC intermediaire ?
+
+- Une autorité de certification racine (Root CA) est le sommet de la hiérarchie des autorités de certification. Elle émet des certificats pour d'autres autorités de certification intermédiaires et est la source de confiance ultime.
+
+- Une autorité de certification intermédiaire (Intermediate CA) se situe entre l'autorité de certification racine et les certificats serveur ou clients finaux. Elle est responsable de l'émission de certificats spécifiques, comme les certificats SSL/TLS, et dépend de l'autorité de certification racine pour valider son autorité.
+
+## 17. Connectez-vous sur https://taisen.fr et affichez la chaine de confiance du certificat
+
+![Chaine confiance](https://cdn.discordapp.com/attachments/1036557173943185491/1164839097211305984/image.png?ex=6544abf2&is=653236f2&hm=438d3865107b64c66b23c948048c1261b2959f3b4b53e0d52a4141fc382ed1ce&)
+
+## 18. Capturer une authentification Kerberos (mettre en place le service si nécessaire)
+
+![Auth KRB5](https://cdn.discordapp.com/attachments/1036557173943185491/1164841602108370954/image.png?ex=6544ae47&is=65323947&hm=8c89954565ef116c9327d760bf78d26d648f85002fd142c6d9e828cc304606df&)
+
+## 19. Capturer une authentification RDP (mettre en place le service si nécessaire)
+
+![Check RDP](https://cdn.discordapp.com/attachments/1036557173943185491/1164845897750949898/image.png?ex=6544b247&is=65323d47&hm=d6e0be169e16d76b17a9bec6c80f2a67dd9a7336ff55cf4c735b12906f8b9022&)
+
+## 20. Quelles sont les attaques connues sur NetLM ?
+
+NetLM présente des vulnérabilités connues, notamment les suivantes :
+
+1. **Attaques de rétroingénierie de hachage LM** : Le hachage LM divise les mots de passe en deux parties de 7 caractères chacune, les transforme en majuscules et ajoute du remplissage si nécessaire. Il est vulnérable à l'attaque de rétroingénierie, où un attaquant peut retrouver le mot de passe d'origine en utilisant des tables de précalcul (tables arc-en-ciel) ou des attaques de force brute.
+
+2. **Utilisation de hachages faibles** : Les hachages LM sont relativement faibles en termes de sécurité, car ils sont sensibles à des attaques relativement simples. Les mots de passe faibles ou courants sont particulièrement vulnérables.
+
+3. **Défi-réponse faible** : NetLM utilise un mécanisme de défi-réponse qui est vulnérable à certaines attaques d'usurpation ou d'écoute passive. Il n'offre pas la même sécurité que les mécanismes de défi-réponse plus robustes utilisés dans les systèmes plus récents.
+
+4. **Tables arc-en-ciel** : Les tables arc-en-ciel peuvent être utilisées pour attaquer les hachages LM en précalculant une grande quantité de hachages possibles, puis en les comparant aux hachages stockés pour trouver des correspondances.
+
+## 21. Capturer une authentification WinRM (Vous pouvez utiliser EvilWinRM si nécessaire côté client.)
+
+![Wireshark check WinRM](https://cdn.discordapp.com/attachments/1036557173943185491/1164849209195900948/image.png?ex=6544b55d&is=6532405d&hm=2e32b8afba10a8658e18e961f2bf98a586c459ed31f348de99604940d92474d3&)
+
+## 22. Capturer une authentification SSH ou SFTP (mettre en place le service si nécessaire)
+
+![Wireshark check SSH-SFTP](https://cdn.discordapp.com/attachments/1036557173943185491/1164869722081337465/image.png?ex=6544c877&is=65325377&hm=706cb8d0b31ee9ee626a0e4e3d7afa2c5b155ebbea9a6fad8f55adf27b84e5c4&)
+
+## 23. Intercepter un fichier au travers du protocole SMB
+
+![Wireshark check SMB](https://cdn.discordapp.com/attachments/1036557173943185491/1164871957460832287/image.png?ex=6544ca8c&is=6532558c&hm=fd068cb7e758c37d29964f6c885d2977b0419e581ed1df30b93d262ae001de94&)
+
+## 24. Comment proteger l'authenticité et la confidentialité d'un partage SMB ?
+
+- Pour protéger l'authenticité et la confidentialité d'un partage SMB (Server Message Block) :
+
+1. Utilisez SMBv3.
+2. Activez le chiffrement SMB pour sécuriser les données en transit.
+3. Utilisez une authentification forte et configurez des autorisations d'accès appropriées.
+4. Utilisez un pare-feu pour restreindre l'accès au serveur SMB.
+5. Gérez les utilisateurs et les groupes efficacement.
+6. Mettez en place une surveillance des activités et des journaux d'audit.
+7. Gardez le système et les logiciels à jour.
+8. Protégez contre les rançongiciels avec des sauvegardes.
+9. Limitez l'accès distant et utilisez des VPN si nécessaire.
+10. Sensibilisez les utilisateurs aux risques de sécurité et aux bonnes pratiques.
+
+## 25. Quels sont les flags TCP ?
+
+![Wireshark check flag](https://cdn.discordapp.com/attachments/1036557173943185491/1164872918426189864/image.png?ex=6544cb72&is=65325672&hm=5ac01e399bbd70f5bb29e211e8684d1058b3cbd7299bc3b6ed92a5eaa97ed915&)
