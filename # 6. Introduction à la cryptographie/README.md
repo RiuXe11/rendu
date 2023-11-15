@@ -101,6 +101,76 @@ Le saucisson c'est bon
 2. Signature numérique 
 3. Cryptographie asymétrique
 
+Clé AES générée : 
+```
+d7052795853ec48cbebf036f9102ec798ec5d4576532ad8eb208257e93fb1cf6
+```
+
+IV généré : 
+```
+831b99b21e8471db3e4055dee6025b81
+```
+
+Message chiffré (Base64) : 
+```
+tVsdb36PSWZbzpy847w2XluWQhBQxiL6
+```
+
+Message d'origine : 
+```
+Il fait beau aujourd'hui
+```
+
+Clé privée RSA : 
+```
+-----BEGIN PRIVATE KEY-----
+MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDCZw8lfgXuii2R
+D5OZa/iopNuou7iOzmMNlShA9irNLFWIDtXC3tsqciRD88S8cltZbbWBJeUEk7Ko
+mBn9EOj0CvHLC3kQjjgALvSfjKQOLZaMRaKZcSbtWG8Bl3Z27Wgp2AlMtOMyktPY
+DFMO+49d7n9+Gn5skUkZJLfncJ+PMgxWLbJ2XaZpy1sTimxrA4VNLoDVIi4N0Mey
+XH/Ewqr34WhTBqyDrr2YvbGfffFjz68bsKvggzZkA3kW2uwNNjANav5SXvy7l7vO
+NISXNIIusLZYbK0VWHV/SF0ReSh5tfL+wXF/VXBhJNLk3N0V+3cwCZvweUdUeTRe
+cwzmOUftAgMBAAECggEAGYI7bxB/x8Ky4vd3xyhvSvXC6vui5n43aidZzlhe2mhI
+Wt+TdgwXFxU+I/p/JLkeunfWWrl1uSmGRnAa7OWEo80x2BJL0vvOZlvC9pKWTlP2
+DrbudJLv6DHz8vIEdeuGAQObiMitjUvN52oKlgs1Tz6F1S61yxovTNDQHtrc3QWa
+DKv8o8HWfyhKQnZHVY0OLTW7KwA1sKEoAVXCyDVYFn8SvvJSka5nHKZ2WRzSVBsU
+RSytE8V0ucON9z6CWLEunuFK2MQXuZelNZV8VBIANwpTl9E/p1knXLsXK6zopxtV
+WbfsLvAiRqVbkV0uwo6dOtEmO5vK4cRenUsB2cRWUQKBgQDr7BD/YS+pNhkt7qaG
+LULajHSnN4Z1FoRpyyD+9JAD/q6E7tce6mD1LpfHRyXKS9tUJOKV2hgo3BAhrxX0
+eJLsPcS0a09PI3zmDV6AkUTYbgodPgWAPXcpFFTRKN76x/vlXpLpsbTpt1FYYVf4
+2sdcIZmEF1kuiXSxZjNhg7IpeQKBgQDS8myPmwHz8aEyDGs4oeoN5COfoh8438Fm
+eh7YzAbDfz6cLtKNwzCdgDRxXGcdDHOT3DzVsglV7FLolKl8yqr+3ScImieGArJ8
+K8akfgPly7Vy633UkyYWu4XlC2KaxJ2f+/tUluqwhoBAosi/JYkLIcbLXQv1UkBh
+hOtYEVOpFQKBgCYCt85dmy85Hx9uZvgRTMcngBf88zXkNdtRtfQ99QIfw4B5dsFt
+Y8e9BQk/ZlBMnn7VHoikReY3ZoX2zqO/1XQok4u6CmImxpXOK56tSRlRyWFiv8Ik
+pRFCTFQSsLJZDDWtYiAy2IIbXgjOTj0zCpHGfBRzKpQ740g9viOE82yJAoGBAKNJ
+eHNo/4f/YFHHfy/lVbHPCSxGaHiz65cRrNMQi6PE2Yg4Tk/h6b3hQbcGWeMIgmbQ
+Ml8QY12Zg0v514B7uQVz1wU3nqSDbfnkQO2PhiDZIOmGFG76QJ+UJL75oyg+Te1L
+Nm9yKtTeKGTgHRipS33MdX9x1RHey2sxYqNXNjVJAoGBAOD5GB0Ru26347KwBzHr
+L0QeQmyo0+lXQ0+98kZieGjwi5iXRMLtuoiIFuz0WFkFOvXkqEHciWPx70zA4bAt
+rWZlKGFQkZbXbDRc8hQMrJOYBy9O2Sx2ewgZPr97uyXrch2O6Sjj/ZOieHhNd6q2
+EH93hE3MvX8rZ6lBIUi9vR3X
+-----END PRIVATE KEY-----
+```
+
+Clé publique RSA : 
+```
+-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwmcPJX4F7ootkQ+TmWv4
+qKTbqLu4js5jDZUoQPYqzSxViA7Vwt7bKnIkQ/PEvHJbWW21gSXlBJOyqJgZ/RDo
+9Arxywt5EI44AC70n4ykDi2WjEWimXEm7VhvAZd2du1oKdgJTLTjMpLT2AxTDvuP
+Xe5/fhp+bJFJGSS353CfjzIMVi2ydl2mactbE4psawOFTS6A1SIuDdDHslx/xMKq
+9+FoUwasg669mL2xn33xY8+vG7Cr4IM2ZAN5FtrsDTYwDWr+Ul78u5e7zjSElzSC
+LrC2WGytFVh1f0hdEXkoebXy/sFxf1VwYSTS5NzdFft3MAmb8HlHVHk0XnMM5jlH
+7QIDAQAB
+-----END PUBLIC KEY-----
+```
+
+Signature numérique : 
+```
+WC0zW7mrmSbMRuJHaVUBkQBQr84WnBricGffBT8OLWWXfI8aiGAuVkaBLlP/H5CuL8hHCpTMLLQ9uz5hr6kh87npiXDLcSCim6GP95SLDC/u/5nX5twBJPdKOUWza4iFsCSkHXAWtyJ87lsOElL3isITCya90azcGnJJi6e6fXk6g0pZOPpol1og4Ij2x40ai8zI6iaSKL42OJl5RMYraM1lr2tEXMjfzOGRnyZomK9D827YBL+trnysRx7WDQTWGCjNrwV1K7Up9j36OuUryfcgQP8Cf0nlYU20SS1BR/a3EIJCh9bKbqgh2xzDBvfvXIenr+Wv114GeKAR0/T74g==
+```
+
 ## 1.5 Comment pourrait-on s'assurer de l'authenticité de ce message ? Ajouter cette fonctionnalité à l'aide d'un script ou d'un outil en CLI.
 
 1. Signature numérique
@@ -368,4 +438,125 @@ if __name__ == "__main__":
     # Déchiffrer le message
     decrypted_message = decrypt(ciphertext, aes_key, iv)
     print(f"Message déchiffré : {decrypted_message.decode('utf-8')}")
+```
+
+## 2.4 Code python génération de clé AES et IV (base64 + signature) :
+
+```python 
+from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+from cryptography.hazmat.backends import default_backend
+from cryptography.hazmat.primitives import padding, hashes
+import os
+import base64
+from cryptography.hazmat.primitives.asymmetric import rsa, padding
+from cryptography.hazmat.primitives import serialization
+
+def generate_aes_key():
+    return os.urandom(32)
+
+def generate_initialization_vector():
+    return os.urandom(16)
+
+def encrypt_text(plaintext, key, iv):
+    cipher = Cipher(algorithms.AES(key), modes.CFB(iv), backend=default_backend())
+    encryptor = cipher.encryptor()
+
+    plaintext_bytes = plaintext.encode('utf-8')
+
+    # Chiffrer les données
+    ciphertext = encryptor.update(plaintext_bytes) + encryptor.finalize()
+    return base64.b64encode(ciphertext).decode('utf-8')
+
+def decrypt_text(ciphertext, key, iv):
+    cipher = Cipher(algorithms.AES(key), modes.CFB(iv), backend=default_backend())
+    decryptor = cipher.decryptor()
+
+    ciphertext_bytes = base64.b64decode(ciphertext)
+
+    # Déchiffrer les données
+    plaintext_bytes = decryptor.update(ciphertext_bytes) + decryptor.finalize()
+    return plaintext_bytes.decode('utf-8')
+
+def generate_rsa_key_pair():
+    private_key = rsa.generate_private_key(
+        public_exponent=65537,
+        key_size=2048,
+        backend=default_backend()
+    )
+
+    private_pem = private_key.private_bytes(
+        encoding=serialization.Encoding.PEM,
+        format=serialization.PrivateFormat.PKCS8,
+        encryption_algorithm=serialization.NoEncryption()
+    )
+
+    public_key = private_key.public_key()
+
+    public_pem = public_key.public_bytes(
+        encoding=serialization.Encoding.PEM,
+        format=serialization.PublicFormat.SubjectPublicKeyInfo
+    )
+
+    return private_pem, public_pem
+
+def sign_message(message, private_key):
+    private_key = serialization.load_pem_private_key(private_key, password=None, backend=default_backend())
+
+    message_bytes = message.encode('utf-8')
+    signature = private_key.sign(
+        message_bytes,
+        padding.PSS(
+            mgf=padding.MGF1(hashes.SHA256()),
+            salt_length=padding.PSS.MAX_LENGTH
+        ),
+        hashes.SHA256()
+    )
+
+    return base64.b64encode(signature).decode('utf-8')
+
+def verify_signature(message, signature, public_key):
+    public_key = serialization.load_pem_public_key(public_key, backend=default_backend())
+
+    message_bytes = message.encode('utf-8')
+    signature_bytes = base64.b64decode(signature)
+
+    try:
+        public_key.verify(
+            signature_bytes,
+            message_bytes,
+            padding.PSS(
+                mgf=padding.MGF1(hashes.SHA256()),
+                salt_length=padding.PSS.MAX_LENGTH
+            ),
+            hashes.SHA256()
+        )
+        return True
+    except cryptography.exceptions.InvalidSignature:
+        return False
+
+# Exemple d'utilisation
+aes_key = generate_aes_key()
+print(f"Clé AES générée : {aes_key.hex()}")
+
+iv = generate_initialization_vector()
+print(f"IV généré : {iv.hex()}")
+
+message = "Il fait beau aujourd'hui"
+print(f"Message d'origine : {message}")
+
+# Chiffrement avec AES
+encrypted_text = encrypt_text(message, aes_key, iv)
+print(f"Message chiffré (Base64) : {encrypted_text}")
+
+# Signature numérique avec RSA
+private_key, public_key = generate_rsa_key_pair()
+print(f"Clé privée RSA : {private_key.decode('utf-8')}")
+print(f"Clé publique RSA : {public_key.decode('utf-8')}")
+
+signature = sign_message(encrypted_text, private_key)
+print(f"Signature numérique : {signature}")
+
+# Vérification de la signature avec la clé publique RSA
+is_signature_valid = verify_signature(encrypted_text, signature, public_key)
+print(f"La signature est-elle valide ? {is_signature_valid}")
 ```
