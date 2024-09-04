@@ -8,3 +8,7 @@
 4. [Warmup](https://github.com/RiuXe11/rendu/tree/f8b9b1902dd97352c020c33be9997934c210bab4/%23%204.%20Warmup)
 5. [Analyser la sécurité du trafic réseaux](https://github.com/RiuXe11/rendu/tree/f8b9b1902dd97352c020c33be9997934c210bab4/%23%205.%20Analyser%20la%20s%C3%A9curit%C3%A9%20du%20trafic%20r%C3%A9seau)
 6. [Introduction à la cryptographie](https://github.com/RiuXe11/rendu/tree/f8b9b1902dd97352c020c33be9997934c210bab4/%23%206.%20Introduction%20%C3%A0%20la%20cryptographie)
+
+## Statistique
+
+[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=RiuXe)](https://github.com/anuraghazra/github-readme-stats)
