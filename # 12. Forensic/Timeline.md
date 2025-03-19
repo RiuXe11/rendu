@@ -1,0 +1,16 @@
+# Timeline Forensic - 18/03/2025
+
+|Élément                                            |Images                                                                                                                                         |Horodatage                  |
+|:--------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------:|
+| Scan nmap                                         | ![Scan nmap](./images/scan%20nmap.png)                                                                                                        | `02/10/2024 13h26`         |
+| Injection SQLi réussie                            | ![Injection SQLi réussie](./images/injection%20SQL.png)                                                                                       | `02/10/2024 13h26`         |
+| Vol du token application                          | ![Vol du token application](./images/Vol%20du%20token%20application.png)                                                                      | `02/10/2024 13h26`         |
+| Injection de commande -> `whoami`                 | ![whoami](./images/whoami.png)                                                                                                                | `02/10/2024 13h26`         |
+| Injection de commande -> ajout de `bob`           | ![ajout de bob](./images/adduser%20bob.png)                                                                                                   | `02/10/2024 13h26`         |
+| Tentative de mot de passe pour `bob` : **échec**  | ![mdp bob : échec](./images/tentive%20mdp%20échoué.png)                                                                                       | `02/10/2024 13h31`         |
+| Mot de passe pour `bob` : **succès**              | ![mdp bob : succés](./images/tentive%20mdp%20succés.png)                                                                                      | `02/10/2024 13h36`         |
+| Connexion SSH de `bob`                            | ![SSH de bob](./images/Connexion%20SSH%20en%20locale.png)                                                                                     | `02/10/2024 13h36`         |
+| Backdoor opérationnelle *(compromission système)* | ![Backdoor opérationnelle](./images/backdoor%20opérationnelle.png)                                                                            | `02/10/2024 13h36 - 13h40` |
+| Installation SSH                                  | ![Installation SSH](./images/Installation%20SSH.png)                                                                                          | `02/10/2024 13h26`         |
+| Connexion SSH en locale                           | ![Connexion SSH en locale](./images/Connexion%20SSH%20en%20locale.png)                                                                        | `02/10/2024 13h36`         |
+| Activité système liée                             | ![Activité système liée 1](./images/Activité%20système%20liée%201.png) ![Activité système liée 2](./images/Activité%20système%20liée%202.png) | `02/10/2024 13h26 - 13h40` |
